@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>HIST 105 Map Project</title>
+    <style>
+      html, body { margin:0; padding:0; overflow:hidden }
+      #display {
+        width: 350px;
+        height: 200px;
+        margin:0px;
+        margin-top: 10px;
+        position: fixed;
+        left:0;
+        bottom:0;
+        background-color: #E0E0E0;
+        opacity: 50%;
+        color: black;
+      }
+    </style>
+  </head>
+  <body>
+    <p id="display">
+      Please hover over a highlighted area 
+    </p>
+    <object id="alphasvg" data="./images/world.svg" type="image/svg+xml" ></object>
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+    <script src="main.js"></script>
+  </body>
+</html>
