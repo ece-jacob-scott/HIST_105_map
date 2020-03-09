@@ -1,7 +1,4 @@
 // @ts-nocheck
-// import events from "./events.json";
-// const events = require("./events.json");
-
 class MapEvent {
   constructor(root, elementIDs, info) {
     this.root = root;
