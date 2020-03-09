@@ -1,3 +1,7 @@
+// @ts-nocheck
+// import events from "./events.json";
+// const events = require("./events.json");
+
 class MapEvent {
   constructor(root, elementIDs, info) {
     this.root = root;
@@ -7,9 +11,9 @@ class MapEvent {
   }
 
   setup() {
-    /*
-    Attaches all the mouse hover events to the map object
-    */
+    /**
+     * Attaches all the mouse hover events to the map object
+     */
     this.elements.forEach(element => {
       element.css("stroke", "red").css("stroke-width", "2");
       element.mouseover(() => {
@@ -26,35 +30,54 @@ class MapEvent {
       });
     });
   }
+
+  detach() {
+    /**
+     * Function that turns off the hover event handlers when the elements are
+     * no longer needed.
+     */
+    this.elements.forEach(element => {
+      element
+        .css("stroke", "black")
+        .css("stroke-width", "1")
+        .off();
+    });
+  }
 }
 
-function main(root) {
-  const chapter_one = [
-    new MapEvent(
-      root,
-      ["ES"],
-      `[32,000-16,000 BC] 
-       Cro-Magnon artists painted thousands of pictures of animals on the walls
-       of the Pyrenees Mountains.`
-    ),
-    new MapEvent(
-      root,
-      ["FR", "DE", "IT"],
-      `[768–814 AD] 
-      Charlemagne unites most of Europe and promoted the spread of Chrisianity 
-      throughout his pagan empire.`
-    ),
-    new MapEvent(
-      root,
-      ["EG"],
-      `[3000 BC] 
-      Start of the Bronze age which saw pictographic systems of writing. Also in
-      Sumer there were early studies of astronomy, metrology, and mathematics.`
-    )
-  ];
+function init(root) {
+  const chapters = {};
 
-  chapter_one.forEach(e => {
+  return new Promise((res, rej) =>
+    $.getJSON("./events.json").done(data => {
+      for (let key in data) {
+        chapters[`chapter_${key}`] = data[key].map(
+          e => new MapEvent(root, e.elements, e.info)
+        );
+      }
+      res(chapters);
+    })
+  );
+}
+
+let currentChapter = "chapter_1";
+
+function main(chapters) {
+  // initial setup for first chapter
+  chapters[currentChapter].forEach(e => {
     e.setup();
+  });
+  $("#display").text("Please hover over a highlighted area");
+
+  // Setup for switching chapters
+  const chapterNumber = $("#chapter-number").on("input", () => {
+    chapters[currentChapter].forEach(e => {
+      e.detach();
+    });
+    currentChapter = `chapter_${chapterNumber.val()}`;
+    chapters[currentChapter].forEach(e => {
+      e.setup();
+    });
   });
 }
 
@@ -64,7 +87,10 @@ mySVG.addEventListener(
   function() {
     const svgDoc = mySVG.contentDocument;
     const svgRoot = svgDoc.documentElement;
-    main(svgRoot);
+    // Get all the events from ./events.json
+    init(svgRoot).then(chapters => {
+      main(chapters);
+    });
   },
   false
 );

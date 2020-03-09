@@ -3,27 +3,56 @@
   <head>
     <title>HIST 105 Map Project</title>
     <style>
-      html, body { margin:0; padding:0; overflow:hidden }
+      html,
+      body {
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+      }
       #display {
         width: 350px;
         height: 200px;
-        margin:0px;
+        margin: 0px;
         margin-top: 10px;
         position: fixed;
-        left:0;
-        bottom:0;
-        background-color: #E0E0E0;
+        left: 0;
+        bottom: 0;
+        background-color: #e0e0e0;
         opacity: 50%;
         color: black;
+        white-space: pre-line;
+      }
+      #chapter-container {
+        position: fixed;
+        margin-top: 3px;
+        margin-left: 3px;
       }
     </style>
   </head>
   <body>
+    <div id="chapter-container">
+      <label for="chapter-number">Chapter: </label>
+      <select id="chapter-number" name="chapter-number">
+        <option value="1">1</option>
+        <option value="2">2</option>
+        <option value="3">3</option>
+        <option value="4">4</option>
+        <option value="5">5</option>
+      </select>
+    </div>
     <p id="display">
-      Please hover over a highlighted area 
+      Please hover over a highlighted area
     </p>
-    <object id="alphasvg" data="./images/world.svg" type="image/svg+xml" ></object>
-    <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+    <object
+      id="alphasvg"
+      data="./images/world.svg"
+      type="image/svg+xml"
+    ></object>
+    <script
+      src="https://code.jquery.com/jquery-3.4.1.min.js"
+      integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+      crossorigin="anonymous"
+    ></script>
     <script src="main.js"></script>
   </body>
 </html>
