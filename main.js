@@ -63,6 +63,16 @@ function init(root) {
 let currentChapter = "chapter_1";
 
 function main(chapters) {
+  const chapterNumber = $("#chapter-number");
+
+  // add options to the select
+  Object.keys(chapters).forEach(e => {
+    const n = e.split("_")[1];
+    chapterNumber.append(`<option value="${n}"> 
+      ${n} 
+    </option>`);
+  });
+
   // initial setup for first chapter
   chapters[currentChapter].forEach(e => {
     e.setup();
@@ -70,7 +80,7 @@ function main(chapters) {
   $("#display").text("Please hover over a highlighted area");
 
   // Setup for switching chapters
-  const chapterNumber = $("#chapter-number").on("input", () => {
+  chapterNumber.on("input", () => {
     chapters[currentChapter].forEach(e => {
       e.detach();
     });
