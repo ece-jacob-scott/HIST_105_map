@@ -15,8 +15,26 @@
     ],
     "2": [
         {
-            "elements": ["US"],
-            "info": "USA USA USA!"
+            "elements": ["BE"],
+            "info": "[1304 AD]\nThe Cloth Hall is completed in the city of Ypres which \"testifies to the wealth and influence of the Flemish woolen industry\" [Daly, Chapter 2, Construction Boom, 7]."
+        },
+        {
+            "elements": ["IT"],
+            "info": "[1322 AD]\nThe grandiose Palazzo Vecchio was completed in Florence to serve as a town hall for expanding commerce. This trend of building exuberant meeting places was common among the rich northern Italian cities."
+        },
+        {
+            "elements": ["GB"],
+            "info": "[1000's AD]\nMany settlements sprung up around main land Europe becuase anyone with a castle and a few knights could own territory. This was only viable because at this time every pety leader did not have to swear loyalty to a king."
+        }
+    ],
+    "3": [
+        {
+            "elements": ["FR"],
+            "info": "[1049-1109 AD]\nThe amount of monastaries in Cluncy rose from 60 to 2000. This was a direct cause of new administation Leo IX who supported the reformation.\n\n[927 AD]\nA bishop called Le Puy threatened authorities in south central France to keep the peace or else they will be excommunicated."
+        },
+        {
+            "elements": ["IT"],
+            "info": "[1080 AD]\nThe University of Bologna was founded in order to teach legal practitionars. This school was the first degree-granting school for higher learning in all of Europe."
         }
     ]
 }

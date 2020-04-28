@@ -1,7 +1,10 @@
 // @ts-nocheck
+// Pulse animation https://stackoverflow.com/questions/30949325/pulsating-color-change-on-svg-image
+
 class MapEvent {
   constructor(root, elementIDs, info) {
     this.root = root;
+    this.elementIDs = elementIDs;
     this.elements = elementIDs.map(id => $(`#${id}`, this.root));
     this.info = info;
     this._infobox = $("#display");
@@ -11,8 +14,11 @@ class MapEvent {
     /**
      * Attaches all the mouse hover events to the map object
      */
+    // this.elementIDs.forEach(id => {
+    //   $(`svg`, this.root).append(`<use id="use-${id}" href="#${id}" />`);
+    // });
     this.elements.forEach(element => {
-      element.css("stroke", "red").css("stroke-width", "2");
+      element.css("stroke", "red").css("stroke-width", "2.5");
       element.mouseover(() => {
         this._infobox.text(this.info);
         this.elements.forEach(e => {
@@ -33,10 +39,14 @@ class MapEvent {
      * Function that turns off the hover event handlers when the elements are
      * no longer needed.
      */
+    // this.elementIDs.forEach(id => {
+    //   $(`#use-${id}`, this.root).remove();
+    // });
     this.elements.forEach(element => {
       element
         .css("stroke", "black")
         .css("stroke-width", "1")
+        .removeClass("hue")
         .off();
     });
   }
