@@ -1,40 +1,216 @@
 {
-    "1": [
+    "1. Innovation in World Civilization": [
         {
             "elements": ["ES"],
-            "info": "[32,000-16,000 BC]\n Cro-Magnon artists painted thousands of pictures of animals on the walls of the Pyrenees Mountains."
+            "info": "1a. [32,000-16,000 BC]\n Cro-Magnon artists painted thousands of pictures of animals on the walls of the Pyrenees Mountains."
         },
         {
             "elements": ["FR", "DE", "IT"],
-            "info": "[768–814 AD]\n Charlemagne unites most of Europe and promoted the spread of Chrisianity throughout his pagan empire."
+            "info": "1b. [768–814 AD]\n Charlemagne unites most of Europe and promoted the spread of Chrisianity throughout his pagan empire."
         },
         {
             "elements": ["EG"],
-            "info": "[3000 BC]\n Start of the Bronze age which saw pictographic systems of writing. Also in Sumer there were early studies of astronomy, metrology, and mathematics."
+            "info": "1c. [3000 BC]\n Start of the Bronze age which saw pictographic systems of writing. Also in Sumer there were early studies of astronomy, metrology, and mathematics."
         }
     ],
-    "2": [
+    "2. Medieval Transformations": [
         {
             "elements": ["BE"],
-            "info": "[1304 AD]\nThe Cloth Hall is completed in the city of Ypres which \"testifies to the wealth and influence of the Flemish woolen industry\" [Daly, Chapter 2, Construction Boom, 7]."
+            "info": "2a. [1304 AD]\nThe Cloth Hall is completed in the city of Ypres which \"testifies to the wealth and influence of the Flemish woolen industry\" [Daly, Chapter 2, Construction Boom, 7]."
         },
         {
             "elements": ["IT"],
-            "info": "[1322 AD]\nThe grandiose Palazzo Vecchio was completed in Florence to serve as a town hall for expanding commerce. This trend of building exuberant meeting places was common among the rich northern Italian cities."
+            "info": "2b. [1322 AD]\nThe grandiose Palazzo Vecchio was completed in Florence to serve as a town hall for expanding commerce. This trend of building exuberant meeting places was common among the rich northern Italian cities."
         },
         {
             "elements": ["GB"],
-            "info": "[1000's AD]\nMany settlements sprung up around main land Europe becuase anyone with a castle and a few knights could own territory. This was only viable because at this time every pety leader did not have to swear loyalty to a king."
+            "info": "2c. [1000's AD]\nMany settlements sprung up around main land Europe becuase anyone with a castle and a few knights could own territory. This was only viable because at this time every pety leader did not have to swear loyalty to a king."
         }
     ],
-    "3": [
+    "3. Papal Revolution": [
         {
             "elements": ["FR"],
-            "info": "[1049-1109 AD]\nThe amount of monastaries in Cluncy rose from 60 to 2000. This was a direct cause of new administation Leo IX who supported the reformation.\n\n[927 AD]\nA bishop called Le Puy threatened authorities in south central France to keep the peace or else they will be excommunicated."
+            "info": "3a. [1049-1109 AD]\nThe amount of monastaries in Cluncy rose from 60 to 2000. This was a direct cause of new administation Leo IX who supported the reformation.\n\n3b. [927 AD]\nA bishop called Le Puy threatened authorities in south central France to keep the peace or else they will be excommunicated."
         },
         {
             "elements": ["IT"],
-            "info": "[1080 AD]\nThe University of Bologna was founded in order to teach legal practitionars. This school was the first degree-granting school for higher learning in all of Europe."
+            "info": "3c. [1080 AD]\nThe University of Bologna was founded in order to teach legal practitionars. This school was the first degree-granting school for higher learning in all of Europe."
+        }
+    ],
+    "4. Military Revolutions": [
+        {
+            "elements": ["EG", "SA", "IQ", "PK", "AF", "IR"],
+            "info": "4a. [336-323 BC]\nAlexander the Great's campaigns and territories taken from the Persians during war."
+        },
+        {
+            "elements": ["CN"],
+            "info": "4b. [1600 BC]\nThe Shang tribe establishes dominance in the northern China Yello River basin thanks to the tribe's mastery of the chariot."
+        },
+        {
+            "elements": ["GB"],
+            "info": "4c. [1066 AD]\n\"Duke William of Normandy invaded and conquered England by sea\"(Daly, Medival Warfare, 5)."
+        }
+    ],
+    "5. Discovery of the World": [
+        {
+            "elements": ["TR"],
+            "info": "5a. [1097 AD]\nThe real First Crusade starts in Constantinople which is located present-day Istanbul, Tureky."
+        },
+        {
+            "elements": ["CN"],
+            "info": "5b. [1271 AD]\nMarco Polo travels to modern day the court of Kubalai Khan with his father and brother, located in present-day Beijing. "
+        },
+        {
+            "elements": ["MA"],
+            "info": "5c. [1415 AD]\nPrince Henry the Navigator led an assault on Ceuta, a port off the coast of Morocco across the Strait of Gibraltar."
+        }
+    ],
+    "6. Explosion of the Printed World": [
+        {
+            "elements": ["US"],
+            "info": "6a. [1638 AD]\nStephen Daye contructs and operates the first printing press in North America at Harvard college."
+        },
+        {
+            "elements": ["FR"],
+            "info": "6b. [1458]\nKing Charles VII sent spies to France to spy on printing craftsman whom had worked with Gutenberg."
+        },
+        {
+            "elements": ["PH"],
+            "info": "6c. [1593]\nSpanish colonists in the Philippines using wood-block printing distribute the first book in Southeast Asia."
+        }
+    ],
+    "7. The Reformation": [
+        {
+            "elements": ["DE"],
+            "info": "7a. [1525 AD]\nTyndale translates the bible from Greek to English in Germany because he feared religious persecution in England."
+        },
+        {
+            "elements": ["CH"],
+            "info": "7b. [1433 AD]\nThe church council of Basel reached an agreement which meant that the Hussites and Bohemians could both be together in the Western Catholicism."
+        },
+        {
+            "elements": ["IT"],
+            "info": "7c. [1515 AD]\nPope Leo X launches a big campaign to build the Basilica of St Peter because the church had recently raised the funds to do so."
+        }
+    ],
+    "8. Scientific Revolutions": [
+        {
+            "elements": ["RU"],
+            "info": "8a. [1869 AD]\nDmitrii Mendeleev devises the periodic table of elements."
+        },
+        {
+            "elements": ["GB"],
+            "info": "8b. [1766 AD]\nHydrogen is discovered in England by Henry Cavendish."
+        },
+        {
+            "elements": ["CH"],
+            "info": "8c. [1828]\nJöns Jacob Berzelius invents the modern chemical notation and published a table with the weights of known elements."
+        }
+    ],
+    "9. Commercial Revolutions": [
+        {
+            "elements": ["GB"],
+            "info": "9a. [1750-1800 AD]\nThe number of banks go from fewer than 30 to 70 in London."
+        },
+        {
+            "elements": ["FR"],
+            "info": "9b. [1721 AD]\nFrance founds its first stock exchange to try and compete with the other countries finicial industries."
+        },
+        {
+            "elements": ["IT"],
+            "info": "9c. [1615 AD]\nCoffee first appears in Venice from the Islamic world where is starts to spread around Europe."
+        }
+    ],
+    "10. Political Revolutions": [
+        {
+            "elements": ["NL"],
+            "info": "10a. [1587-1625 AD]\nMaurice of Nassau acted as the main political and military leader uniting multiple provinces in Holland."
+        },
+        {
+            "elements": ["FR"],
+            "info": "10b. [1302 AD]\n\"Philip the Fair convened France’s first national assembly in 1302 to unite towns and nobles with the monarchy\"(Daly, Foundations of Liberty, 12)"
+        },
+        {
+            "elements": ["US"],
+            "info": "10c. [1773 AD]\nThe Boston Tea Party occurs where American colonists protest British rule by dumping tea from ships into the ocean."
+        }
+    ],
+    "11. Industrial Revolution": [
+        {
+            "elements": ["GB"],
+            "info": "11a. [1779 AD]\nSamuel Compton invents the \"spinning mule\" which spun thread thick enough to sustain large scale production."
+        },
+        {
+            "elements": ["FR"],
+            "info": "11b. [1820 AD]\nBoulton and Watt devise a lighting system utilizing coal and lights Paris with their new innovation."
+        },
+        {
+            "elements": ["US"],
+            "info": "11c. [1835 AD]\nFirst major rail service in Massachusetts opens from Boston to Lowell."
+        }
+    ],
+    "12. Technological Revolution": [
+        {
+            "elements": ["US"],
+            "info": "12a. [1822 AD]\nWilliam Underwood founds the first successful canning buisness (William Underwood Company) selling canned goods and condiments to people in Boston."
+        },
+        {
+            "elements": ["GB"],
+            "info": "12b. [1847 AD]\nThe Fry Family invents and markets chocolate bars, among many other chocolate treats, in Bristol England."
+        },
+        {
+            "elements": ["SE"],
+            "info": "12c. [1847-1863 AD]\nAlfred Nobel invents and patents important explosive materials such as nitroglycerin and dynamite."
+        }
+    ],
+    "13. Crises of the West": [
+        {
+            "elements": ["PL"],
+            "info": "13a. [1939 AD]\nGermany invades Poland on September 1st which percipitated the start of World War II."
+        },
+        {
+            "elements": ["RU"],
+            "info": "13b. [1941 AD]\nRussia joins World War II after Germany and Japan lauch an offensive on both their borders."
+        },
+        {
+            "elements": ["KR"],
+            "info": "13c. [1950 AD]\nRussian backed North Korea invades Pro-US South Korea starting the first or many proxy wars between the Russians and the United States."
+        }
+    ],
+    "14. Social Revolutions": [
+        {
+            "elements": ["GB"],
+            "info": "14a. [1800's AD]\nEnglish woman invent the modern novel with great writers such as Jane Austen, Mary Ann Evans, and many more."
+        },
+        {
+            "elements": ["US"],
+            "info": "14b. [1919 AD]\n36 of the 48 states ratify the 18th amendment which prohibited the creation, sale, and transportation of alcohol."
+        },
+        {
+            "elements": ["GB"],
+            "info": "14b. [1792 AD]\nMary Wollstonecraft, an early feminist and philosopher, wrote \"Vidication of the Rights of Women\" where she argued against the inequalities of the modern world."
+        }
+    ],
+    "General History": [
+        {
+            "elements": ["US"],
+            "info": "[1636 AD]\nHarvard is founded in Cambridge, Massachusetts and became the home to countless of the best minds in science for years to come."
+        },
+        {
+            "elements": ["JP"],
+            "info": "[1945 AD]\nThe United States drops the atomic bombs on Japanes cities Hiroshima and Nagasaki ending World War II, marking the first time in history any civilisation used an atomic bomb."
+        },
+        {
+            "elements": ["DE"],
+            "info": "[1440 AD]\nJohannes Gutenberg invents the printing press in Germany which is the single most important innovation in the modern age."
+        },
+        {
+            "elements": ["BA"],
+            "info": "[1914 AD]\nFranz Ferdinand of Austria is assassinated which causes a series of events leading to the first world war."
+        },
+        {
+            "elements": ["ES"],
+            "info": "[1492 AD]\nChristopher Columbus sets sail from Spain in search of India and ends up landing in the new world half way across the world."
         }
     ]
 }
